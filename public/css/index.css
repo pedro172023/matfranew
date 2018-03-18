@@ -1,5 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.contenedor{
+	max-width: 1200px;
+	margin: 560px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: center center;
+}
+
 body {
-background-image: url(../imgs/s.png);
+background-image: url(../imgs/q.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -8,6 +27,6 @@ background-size: cover;
 
 @media only screen and (max-width: 767px) {
 body {
-background-image: url(../imgs/s.png);
+background-image: url(../imgs/q.jpg);
 
 }
